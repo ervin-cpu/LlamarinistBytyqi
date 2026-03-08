@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Llamarinist Bytyqi</title>
+    <link rel="icon" href="Llamarinist Bytyqi logo design.png">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <header class="header" id="top">
+    <div class="container header-inner">
+
+      <a class="brand" href="#top">
+        <img src="Llamarinist Bytyqi logo design.png" alt="">
+        <div class="brand-text">
+          <span class="brand-name">Llamarinist Bytyqi</span>
+          <span class="brand-tag">Punime me Llamarinë • Cilësi • Siguri • Korrektësi</span>
+        </div>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="index.html">Ballina </a>
+        <a href="services.html">Shërbimet</a>
+        <a href="projects.html">Projektet</a>
+        <a href="about.html">Rreth Nesh</a>
+        <a href="contact.html">Kontakt</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Hap menunë">
+        <span></span><span></span><span></span>
+      </button>
+
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="Ballina">
+    <div class="container hero-inner">
+
+      <div class="hero-content">
+        <p class="badge">⭐ Punë të pastra & materiale cilësore</p>
+        <h1>Punime Profesionale me Llamarinë për Shtëpi & Objekte</h1>
+        <p class="hero-text">
+          Nga montimi i kulmeve dhe ulluqeve deri te riparimet dhe fasadat metalike.
+          Punojmë me precizitet, siguri dhe përfundim modern.
+        </p>
+      </div>
+    </div>  
+  </section>
+    
+    <!-- CONTACT -->
+  <section class="section section-soft" id="contact">
+    <div class="container">
+      <div class="section-head">
+        <h2>Kontakt</h2>
+        <p>Na shkruaj për ofertë. Plotëso formën dhe të kontaktojmë shpejt.</p>
+      </div>
+
+      <div class="contact-grid">
+        <form class="form" action="https://formsubmit.co/erolindbytyqi5@gmail.com" method="POST">
+
+          <input type="hidden" name="_subject" value="Kërkesë e re nga website!">
+          <input type="hidden" name="_captcha" value="false">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>Emri</label>
+              <input type="text" name="Emri" placeholder="Shkruaj emrin" required>
+            </div>
+
+            <div class="form-group">
+              <label>Numri i telefonit</label>
+              <input type="tel" name="Telefoni" placeholder="+383..." required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>Lokacioni</label>
+              <input type="text" name="Lokacioni" placeholder="p.sh. Prishtinë" required>
+            </div>
+
+            <div class="form-group">
+              <label>Shërbimi</label>
+              <select aria-label=State name="Sherbimi" required>
+                <option value="">Zgjedh shërbimin</option>
+                <option>Kulme me llamarinë</option>
+                <option>Ulluqe & shkarkues</option>
+                <option>Fasada metalike</option>
+                <option>Oxhaqe & kapakë</option>
+                <option>Riparime</option>
+                <option>Punime me porosi</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Mesazhi</label>
+            <textarea name="Mesazhi" rows="5" placeholder="Përshkruaj punën që të duhet..." required></textarea>
+          </div>
+
+          <button class="btn btn-primary btn-full" type="submit">Dërgo Kërkesën</button>
+        </form>
+
+        <div class="contact-info">
+          <div class="info-card">
+            <h3>Na kontakto direkt</h3>
+            <p>📞 Telefon: <a href="tel:+38344124180">+383 44/49 124 180</a></p>
+            <p>✉️ Email: <a href="mailto:ridvanbytyqi12@gmail.com">ridvanbytyqi12@gmail.com</a></p>
+            <p>📍 Lokacion: Leshan-Suharekë</p>
+          </div>
+
+          <div class="info-card">
+            <h3>Orari</h3>
+            <p>Hënë - Shtunë: 08:00 - 18:00</p>
+            <p>E Diel: Pushim</p>
+          </div>
+
+          <div class="info-card">
+            <h3>Shërbim i shpejtë</h3>
+            <p>Na shkruaj dhe të kthejmë përgjigje sa më shpejt.</p>
+            <p>📞 Telefon: <a href="tel:+38344124180">+383 44/49 124 180</a></p>
+            <p>✉️ Email: <a href="mailto:ridvanbytyqi12@gmail.com">ridvanbytyqi12@gmail.com</a></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <div class="footer-brand">Llamarinist Bytyqi</div>
+        <p>Punime profesionale në llamarinë me cilësi dhe përkushtim.</p>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> Llamarinist Bytyqi. Të gjitha të drejtat e rezervuara.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="contact.js"></script>
+
+</body>
+</html>
